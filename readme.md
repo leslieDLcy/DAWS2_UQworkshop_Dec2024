@@ -13,3 +13,7 @@ Ongoing. The links to the rendered notebooks can be found below:
 
 
 ### documentation
+
+Ongoing. 
+
+![alt text](./assets/PyUncertainNumber_documentation.png "documentation underway")
