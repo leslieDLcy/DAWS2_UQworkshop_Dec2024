@@ -8,7 +8,7 @@ USER_dir = '../user_dir'
 import sys
 sys.path.append(USER_dir)
 
-TEST_method = "endpoints"
+TEST_method = "subinterval"
 
 
 # define the function Ioann style
@@ -45,14 +45,19 @@ I = UN(name='moment of inertia', symbol='I', units='m', essence='interval', boun
 F = UN(name='vertical force', symbol='F', units='kN', essence='interval', bounds=[11, 37])
 E = UN(name='elastic modulus', symbol='E', units='GPa', essence='interval', bounds=[200, 220])
 
-# calling signature 1 with 2D nd.array
-# TODO return either as namedTuple or dict to be explicit
+
+# Ioanna style
+
+
+
+
+# Leslie style
 a = up_bb(vars=['L', 'I', 'F', 'E'], 
           fun=cantilever_beam_deflection, 
           n = None, 
           method = TEST_method, 
           save_raw_data = "yes", 
           base_path = USER_dir,
-          name='deflection', 
-          symbol='D'
+        #   name='deflection', 
+        #   symbol='D'
          )
