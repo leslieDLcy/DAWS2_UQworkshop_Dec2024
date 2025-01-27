@@ -1,19 +1,20 @@
 # Introduction
 
-This repository is for the organisationof the `UQ & M workshop`for the DAWS2 project on Dec 10th 2024.
+This repository is for the organisationof the `UQ & M workshop`for the DAWS2 project on Jan 27th 2025.
 
 ### slides
 
-A sharepoint for the DAWS2 UQ team can be accessed [here](https://theuniversityofliverpool-my.sharepoint.com/:f:/r/personal/yuchen2_liverpool_ac_uk/Documents/DAWS2_project_dir/DAWS2_UQteam_sharepoint?csf=1&web=1&e=Kc3Qo4).
+The slides can be found in the [slides directory](./slides/)
 
-### demonstrations
+### code demonstrations
 
-Ongoing. The links to the rendered notebooks can be found below:
+The links to the rendered notebooks can be found below:
+
 1. [cantiliver beam example](https://nbviewer.org/github/leslieDLcy/DAWS2_UQworkshop_Dec2024/blob/main/notebooks/UP_demonstration%5BCantileverBbeam%5D.ipynb);
 
+### The PyUncertainNumber package and documentation
 
-### documentation
+- [the PyUncertainNumber package on GitHub](https://github.com/leslieDLcy/PyUncertainNumber)
+- the [documentation](https://pyuncertainnumber.readthedocs.io/en/latest/index.html)
 
-Ongoing. 
-
-![alt text](./assets/PyUncertainNumber_documentation.png "documentation underway")
+![alt text](./assets/UN_workshop_info.png "documentation underway")
